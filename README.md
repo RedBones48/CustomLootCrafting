@@ -15,7 +15,7 @@ Creating a new Model/Item is three fold.
 - 3.  Linking custom Item/Block Models to textures. In most cases you want to have your own namespace to put      all your custom models and textures in. Looking at the crafting folder in the CustomLootCrafting ResourcePack,there is two folders. One for models and textures, Models is where you want to put your custom model json file that links to the next folder Textures. This is how we can get the look and shape of a item or block. Generaly you want to model file in the minecraft folder linked to a model file in the models folder in your custom namespace. Models file link to Textures you created in the custom namespace.  
 
 #   Adding Custom Recipes to the Datapack
--   Locate the c.l.c_recipes.json file in loot_tables/custom_recipes folder. Open file in a editor and scroll down to the entries section // "entries":[ //. Place cursor to the right of the / entries:[ /highlighting the [ ,now scroll down where it shows you where the last entry was added and highlighing the close end of ] . Go one line above the to the } and put a , so it looks like },. Now your ready to add your first entry. go to the entries_template provided in the datapack, copy the whole thing from top to bottom. Return to to c.l.c_recipes.json file and hit spacebar just after the "," you placed and paste copied fields on that line, being the next line. Now just fill in the required fields. 
+-   Locate the c.l.c_recipes.json file in loot_tables/custom_recipes folder. Open file in a editor and scroll down to the entries section  "entries":[ . Place cursor to the right of the  entries:[ <-- highlighting the [ ,now scroll down where it shows you where the last entry was added and highlighing the close end of ] . Go one line above the to the } and put a , so it looks like },. Now your ready to add your first entry. go to the entries_template provided in the datapack, copy the whole thing from top to bottom. Return to to c.l.c_recipes.json file and hit spacebar just after the "," you placed and paste copied fields on that line, being the next line. Now just fill in the required fields. 
 - * Required fields 
         * "tag":"{}" - This should include a custom_model_data entry
         * "name":[{}] - This should include a Name fo your item, color is optional
@@ -27,7 +27,7 @@ After all fields are change correctly go reload your SAVED changes and go craft 
 ## Version number
 Version.1.2
 
-# Credits:
-# - Creator: Red_Bones
-# - Models: -Crafting Table: Javier107's datapack: backpack 
-# - Textures :Red_Bones
+#  Credits:
+# - Creator Red_Bones
+#  - Models: Crafting Table: Javier107's  
+# - Textures: Red_Bones
