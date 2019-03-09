@@ -1,0 +1,41 @@
+{
+    "type":"entity",
+    "pools":[
+        {
+            "rolls": 1,
+            "entries":[
+                {
+                    "type":"group",
+                    "children":[
+                        {
+                            "type":"item",
+                            "name":"minecraft:dropper",
+                            "weight":1,
+                            "functions":[
+                            {
+                                "function":"set_nbt",
+                                "tag":"{CustomModelData:3001,'c.l.c':1b,BlockEntityTag:{Lock:\"C.L.C Table\"}}"
+                            },
+                            {
+                                "function":"set_name",
+                                "name":[
+                                    {"text":"C.L.C Table","color":"dark_aqua"}
+                                ]
+                            }
+                                ],
+                            "conditions":[
+                                {
+                            "condition":"minecraft:entity_properties",
+                            "predicate":{
+                                "nbt":"{Inventory:[{id:\"minecraft:black_glazed_terracotta\"}]}"
+                                },
+                                "entity":"this"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
