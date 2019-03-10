@@ -1,0 +1,24 @@
+{
+    "parent":"c.l.c:recipes/c.l.c_table",
+    "display": {
+      "icon": {
+          "item": "minecraft:dropper",
+          "nbt":"{CustomModelData:3001}"
+      },
+      "title": {
+        "text": "Unlimited Crafting"
+      },
+      "description": {
+        "text": "Craft a CLC Table"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+        "C.l.c.Table": {
+            "trigger": "impossible"
+    }
+  }
+}
