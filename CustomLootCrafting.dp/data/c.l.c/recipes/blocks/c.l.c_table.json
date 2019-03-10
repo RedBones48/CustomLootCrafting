@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "xxx",
+        "wsw",
+        "www"
+    ],
+    "key": {
+        "w": {
+            "tag": "c.l.c:wooden_slabs"
+        },
+        "s": {
+            "item": "minecraft:dropper"
+        },
+        "x": {
+            "item": "minecraft:red_carpet"
+        }
+    },
+    "result": {
+        "item": "minecraft:black_glazed_terracotta",
+        "count": 1
+    },
+    "group": "c.l.c_table"
+}

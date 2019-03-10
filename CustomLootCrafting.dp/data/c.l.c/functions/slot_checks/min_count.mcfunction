@@ -1,0 +1,34 @@
+#
+#   function c.l.c:crafting_table/slot_check/stack.min
+#   @parent c.l.c:crafting_table/slot_check/slot_count
+#   @Memo: Finding the Slot with the Least amount of Items 
+#               To find the Most Invert Modifier
+#
+
+## Reset Scoreboards 
+scoreboard players set Slot_Min Current_Total 0
+
+## Offset for empty slots 
+function c.l.c:slot_checks/offset_slots
+
+## Compare ITem.[Slot].Count
+## Slot 0
+execute if score #Current_Count.0 slot_check0 <= #Current_Count.1 slot_check1 if score #Current_Count.0 slot_check0 <= #Current_Count.2 slot_check2 if score #Current_Count.0 slot_check0 <= #Current_Count.9 slot_check9 if score #Current_Count.0 slot_check0 <= #Current_Count.10 slot_check10 if score #Current_Count.0 slot_check0 <= #Current_Count.11 slot_check11 if score #Current_Count.0 slot_check0 <= #Current_Count.18 slot_check18 if score #Current_Count.0 slot_check0 <= #Current_Count.19 slot_check19 if score #Current_Count.0 slot_check0 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.0 slot_check0
+## Slot 1
+execute if score #Current_Count.1 slot_check1 <= #Current_Count.0 slot_check0 if score #Current_Count.1 slot_check1 <= #Current_Count.2 slot_check2 if score #Current_Count.1 slot_check1 <= #Current_Count.9 slot_check9 if score #Current_Count.1 slot_check1 <= #Current_Count.10 slot_check10 if score #Current_Count.1 slot_check1 <= #Current_Count.11 slot_check11 if score #Current_Count.1 slot_check1 <= #Current_Count.18 slot_check18 if score #Current_Count.1 slot_check1 <= #Current_Count.19 slot_check19 if score #Current_Count.1 slot_check1 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.1 slot_check1
+## Slot 2
+execute if score #Current_Count.2 slot_check2 <= #Current_Count.0 slot_check0 if score #Current_Count.2 slot_check2 <= #Current_Count.1 slot_check1 if score #Current_Count.2 slot_check2 <= #Current_Count.9 slot_check9 if score #Current_Count.2 slot_check2 <= #Current_Count.10 slot_check10 if score #Current_Count.2 slot_check2 <= #Current_Count.11 slot_check11 if score #Current_Count.2 slot_check2 <= #Current_Count.18 slot_check18 if score #Current_Count.2 slot_check2 <= #Current_Count.19 slot_check19 if score #Current_Count.2 slot_check2 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.2 slot_check2
+## Slot 9
+execute if score #Current_Count.9 slot_check9 <= #Current_Count.0 slot_check0 if score #Current_Count.9 slot_check9 <= #Current_Count.1 slot_check1 if score #Current_Count.9 slot_check9 <= #Current_Count.2 slot_check2 if score #Current_Count.9 slot_check9 <= #Current_Count.10 slot_check10 if score #Current_Count.9 slot_check9 <= #Current_Count.11 slot_check11 if score #Current_Count.9 slot_check9 <= #Current_Count.18 slot_check18 if score #Current_Count.9 slot_check9 <= #Current_Count.19 slot_check19 if score #Current_Count.9 slot_check9 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.9 slot_check9
+## Slot 10
+execute if score #Current_Count.10 slot_check10 <= #Current_Count.0 slot_check0 if score #Current_Count.10 slot_check10 <= #Current_Count.1 slot_check1 if score #Current_Count.10 slot_check10 <= #Current_Count.2 slot_check2 if score #Current_Count.10 slot_check10 <= #Current_Count.9 slot_check9 if score #Current_Count.10 slot_check10 <= #Current_Count.11 slot_check11 if score #Current_Count.10 slot_check10 <= #Current_Count.18 slot_check18 if score #Current_Count.10 slot_check10 <= #Current_Count.19 slot_check19 if score #Current_Count.10 slot_check10 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.10 slot_check10
+## Slot 11
+execute if score #Current_Count.11 slot_check11 <= #Current_Count.0 slot_check0 if score #Current_Count.11 slot_check11 <= #Current_Count.1 slot_check1 if score #Current_Count.11 slot_check11 <= #Current_Count.2 slot_check2 if score #Current_Count.11 slot_check11 <= #Current_Count.9 slot_check9 if score #Current_Count.11 slot_check11 <= #Current_Count.10 slot_check10 if score #Current_Count.11 slot_check11 <= #Current_Count.18 slot_check18 if score #Current_Count.11 slot_check11 <= #Current_Count.19 slot_check19 if score #Current_Count.11 slot_check11 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.11 slot_check11
+## Slot 18
+execute if score #Current_Count.18 slot_check18 <= #Current_Count.0 slot_check0 if score #Current_Count.18 slot_check18 <= #Current_Count.1 slot_check1 if score #Current_Count.18 slot_check18 <= #Current_Count.2 slot_check2 if score #Current_Count.18 slot_check18 <= #Current_Count.9 slot_check9 if score #Current_Count.18 slot_check18 <= #Current_Count.10 slot_check10 if score #Current_Count.18 slot_check18 <= #Current_Count.11 slot_check11 if score #Current_Count.18 slot_check18 <= #Current_Count.19 slot_check19 if score #Current_Count.18 slot_check18 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.18 slot_check18 
+## Slot 19
+execute if score #Current_Count.19 slot_check19 <= #Current_Count.0 slot_check0 if score #Current_Count.19 slot_check19 <= #Current_Count.1 slot_check1 if score #Current_Count.19 slot_check19 <= #Current_Count.2 slot_check2 if score #Current_Count.19 slot_check19 <= #Current_Count.9 slot_check9 if score #Current_Count.19 slot_check19 <= #Current_Count.10 slot_check10 if score #Current_Count.19 slot_check19 <= #Current_Count.11 slot_check11 if score #Current_Count.19 slot_check19 <= #Current_Count.18 slot_check18 if score #Current_Count.19 slot_check19 <= #Current_Count.20 slot_check20 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.19 slot_check19 
+## Slot 20
+execute if score #Current_Count.20 slot_check20 <= #Current_Count.0 slot_check0 if score #Current_Count.20 slot_check20 <= #Current_Count.1 slot_check1 if score #Current_Count.20 slot_check20 <= #Current_Count.2 slot_check2 if score #Current_Count.20 slot_check20 <= #Current_Count.9 slot_check9 if score #Current_Count.20 slot_check20 <= #Current_Count.10 slot_check10 if score #Current_Count.20 slot_check20 <= #Current_Count.11 slot_check11 if score #Current_Count.20 slot_check20 <= #Current_Count.18 slot_check18 if score #Current_Count.20 slot_check20 <= #Current_Count.19 slot_check19 store result score Slot_Min Current_Total run scoreboard players get #Current_Count.20 slot_check20
+
+## 
