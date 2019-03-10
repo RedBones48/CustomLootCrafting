@@ -70,7 +70,7 @@
                                 {
                                 "condition":"entity_properties",
                                 "predicate":{
-                                "nbt":"{HandItems:[{id: \"minecraft:wooden_shovel\", Count: 1b, tag:{CustomModelData: 1005, Items:[{Slot: 0b, id:\"minecraft:wooden_shovel\",tag:{CustomModelData:1001}},{Slot: 1b, id: \"minecraft:redstone_block\"},{Slot: 2b, id:\"minecraft:wooden_shovel\" ,tag:{CustomModelData:1001}},{Slot: 10b, id: \"minecraft:stick\"},{Slot: 19b, id: \"minecraft:stick\"}]}}]}"
+                                "nbt":"{HandItems:[{id: \"minecraft:wooden_shovel\", Count: 1b, tag:{CustomModelData: 1005, Items:[{Slot: 0b, id:\"minecraft:wooden_shovel\", tag:{CustomModelData:1001}},{Slot: 1b, id: \"minecraft:redstone_block\"},{Slot: 2b, id:\"minecraft:wooden_shovel\", tag:{CustomModelData:1001}},{Slot: 10b, id: \"minecraft:stick\"},{Slot: 19b, id: \"minecraft:stick\"}]}}]}"
                                 },
                                 "entity":"this"
                                 },
