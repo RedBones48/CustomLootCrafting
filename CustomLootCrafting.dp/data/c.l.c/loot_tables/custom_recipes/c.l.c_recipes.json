@@ -33,7 +33,7 @@
                             {
                             "condition":"entity_properties",
                             "predicate":{
-                            "nbt":"{HandItems:[{id: \"minecraft:wooden_shovel\", Count: 1b, tag:{CustomModelData: 1005, Items:[{Slot: 0b, id: \"minecraft:redstone\"},{Slot: 1b, id: \"minecraft:redstone\"},{Slot: 2b, id: \"minecraft:redstone\"},{}]}}]}"
+                            "nbt":"{HandItems:[{id: \"minecraft:wooden_shovel\", Count: 1b, tag:{CustomModelData: 1005, Items:[{Slot: 0b, id: \"minecraft:anvil\"},{Slot: 1b, id: \"minecraft:anvil\"},{Slot: 2b, id: \"minecraft:anvil\"},{Slot:10b,id:\"minecraft:stick\"},{Slot:19b,id:\"minecraft:stick\"}]}}]}"
                             },
                             "entity":"this"
                             },
@@ -43,10 +43,8 @@
                             "scores":
                                 {
                                     "slot_check9":0,
-                                    "slot_check10":0,
                                     "slot_check11":0,
                                     "slot_check18":0,
-                                    "slot_check19":0,
                                     "slot_check20":0
                                 }     
                             }

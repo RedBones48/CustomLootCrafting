@@ -3,7 +3,6 @@
 #   @parent c.l.c:slot_checks/modify_counts
 #
 #
-say input_operation
 ## Removing Item Count Based on Count_Min
 
 execute if score #Current_Count.0 slot_check0 matches 1.. if score @s Output_Slot matches 0 store result block ~ ~ ~ Items[{Slot:0b}].Count byte 1 run scoreboard players operation #Current_Count.0 slot_check0 -= #output_success Success 
