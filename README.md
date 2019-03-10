@@ -18,11 +18,12 @@ Creating a new Model or Item is three fold.
 -   Locate the c.l.c_recipes.json file in loot_tables/custom_recipes folder. Open file in a editor and scroll down to the entries section  "entries":[ . Place cursor to the right of the  entries:[ <-- highlighting the [ , now scroll down where it shows you where the last entry was added and highlighing the close end ] . Go one line above the to the } and put a , so it looks like }, . Now your ready to add your first entry. go to the entries_template provided in the datapack, copying from top to bottom. Return to to c.l.c_recipes.json file and hit spacebar just after the "," you placed and paste copied fields on that line, being the next line. Now just fill in the required fields. 
  
 * Required fields 
--   * "tag":"{}" - This should include a custom_model_data entry
--   * "name":[{}] - This should include a Name fo your item, color is optional
-* SHOULD NEVER BE CHANGED!!! "conditions- "nbt:"{HandItems:[{id: \"minecraft:wooden_shovel\", Count: 1b, tag:                         {CustomModelData: 1005, Items:[ "
--   * {Slot: 0b, id: \"minecraft:item\"} this section is where you first entry of recipe go, each slot of you recipes goes in a new element inside Items:[]
--   * For each Item Slot you did not include goes in the "scores": section. just change the number at the end of "slot_check# <---" Again DO NOT change score value ":0" Slot Fields are 0,1,2,9,10,11,18,19,20
+-   "tag":"{}" - This should include a custom_model_data entry
+-   "name":[{}] - This should include a Name fo your item, color is optional
+* SHOULD NEVER BE CHANGED!!! 
+    "conditions" "nbt:"{HandItems:[{id: \"minecraft:wooden_shovel\", Count: 1b, tag:                         {CustomModelData: 1005, Items:[ "
+-   {Slot: 0b, id: \"minecraft:item\"} this section is where you first entry of recipe go, each slot of you recipes goes in a new element inside Items:[]
+-   For each Item Slot you did not include goes in the "scores": section. just change the number at the end of "slot_check# <---" Again DO NOT change score value ":0" Slot Fields are 0,1,2,9,10,11,18,19,20
 After all fields are change correctly go reload your SAVED changes and go craft your new recipe.. That's it       
 
 ## Version number
