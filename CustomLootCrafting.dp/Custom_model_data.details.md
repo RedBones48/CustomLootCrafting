@@ -1,7 +1,7 @@
 # CustomModelData'
 * --Items starts 1001
         * shovel
-    - 1001 fire crustal
+    - 1001 fire crystal
     - 1002 ice crystal
     - 1003 wind crystal
     - 1004 earth crystal

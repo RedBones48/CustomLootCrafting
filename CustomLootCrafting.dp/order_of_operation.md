@@ -34,6 +34,7 @@
                 
 
 # need to finish/create
-1.   Advancement tree
-2.  Fix loading issues
-3.  Change the slot in witch the box goes into
+1.  Advancement tree
+2.  mutiple tables 
+3.  Change the slot the box goes into
+4.  create a custom recipe book 
