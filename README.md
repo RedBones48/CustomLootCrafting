@@ -23,7 +23,8 @@ Creating a new Model or Item is three fold.
 * SHOULD NEVER BE CHANGED!!! 
     "conditions" "nbt:"{HandItems:[{id: \"minecraft:wooden_shovel\", Count: 1b, tag:                         {CustomModelData: 1005, Items:[ "
 -   {Slot: 0b, id: \"minecraft:item\"} this section is where you first entry of recipe go, each slot of you       recipes goes in a new element inside Items:[<->]
--   For each Item Slot you did not include goes in the "scores": section. just change the number at the end of "slot_check# <---" Again DO NOT change score value ":0" Slot Fields are 0,1,2,9,10,11,18,19,20
+-   For each Item Slot you did not include goes in the "scores": section. just change the number at the end of "slot_check# <---" but NOT changing the score value ":0"<- , 
+- slot_check#  fields are 0, 1, 2, 9, 10, 11, 18, 19, 20.
 After all fields are change correctly go reload your SAVED changes and go craft your new recipe.. That's it       
 
 ## Version number
