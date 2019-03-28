@@ -1,0 +1,27 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "iyi",
+        "sxs",
+        "s s"
+    ],
+    "key": {
+        "x": {
+            "tag": "c.l.c:wooden_slabs"
+        },
+        "s": {
+            "item": "minecraft:stick"
+        },
+        "y":{
+            "item":"minecraft:chest"
+        },
+        "i":{
+            "item":"minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "minecraft:structure_void",
+        "count": 1
+    },
+    "group": "workbench"
+}

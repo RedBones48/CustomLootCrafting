@@ -3,7 +3,7 @@
 #   @parent core:load
 #
 #
-execute store success score #core.loaded temp if score #core.loaded temp matches 1
-execute if score #core.loaded temp matches 0 run function core:internal/force.install
-execute if score #core.loaded temp matches 1 run function core:internal/load.message
 
+##   Complete setup by adding 1 to global scoreboard
+scoreboard players set $core.initiated global 1
+gamerule sendCommandFeedback false

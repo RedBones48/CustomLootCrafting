@@ -8,7 +8,7 @@
         "minecraft:acacia_slab",
         "minecraft:dark_oak_slab",
         "minecraft:petrified_oak_slab",
-        "minecraft:red_carpet",
-        "minecraft:dropper"
+        "minecraft:stick",
+        "minecraft:crafting_table"
     ]
 }

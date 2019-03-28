@@ -1,8 +1,9 @@
 #
 #   function core:tick
-#   @parent minecraft:tick
+#   @parent minecraft.load
 #
 #
 
-#   Run #tags every tick
-function c.l.c:tick
+
+##   Run other datapacks on tick
+function #core:tick
