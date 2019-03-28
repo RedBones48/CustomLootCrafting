@@ -1,0 +1,42 @@
+﻿{
+	"textures": {
+		"gui_texture": "workbench:gui/container/workbench_gui"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 15.9375],
+			"to": [32, 32, 16],
+			"faces": {
+				"north": { "uv": [11, 16, 0, 5], "rotation": 180, "texture": "#gui_texture"},
+				"south": { "uv": [0, 5, 11, 16], "texture": "#gui_texture"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"translation": [-18, 29, 1],
+			"scale": [3.66, 3.66, 3.66]
+		},
+		"thirdperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"scale": [0, 0, 0]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"scale": [0, 0, 0]
+		}
+	}
+}
