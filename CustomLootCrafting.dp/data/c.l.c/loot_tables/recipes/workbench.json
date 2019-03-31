@@ -23,7 +23,7 @@
                         "function":"set_lore",
                         "lore":[
                             {"text":"The Axe of Champions","color":"aqua"},
-                            [{"selector":"@p"},{"text":"'s  Battle Axe "}]
+                            [{"selector":"@p"},{"text":"  Battle Axe "}]
                             ],
                             "entity":"this",
                             "replace":"true"
