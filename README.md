@@ -10,11 +10,13 @@ C.L.C is a datapack for map creators that allows custom crafting using Loot Tabl
 
 
 
-## Version number
-Version.2.2
+
+
 
 ##  Credits:
 - Creator RedBones
 - Models: Workbench RedBones  
 - Textures: RedBones
 - Code: Red_Bones / Javier107's
+
+Version.2.2
