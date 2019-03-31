@@ -30,6 +30,7 @@
 
 # need to finish/create
 1.  Advancement tree
-2.  mutiple tables 
-3.  Change the slot the box goes into
-4.  create a custom recipe book 
+2.  place storage chest 
+3.  fix hud placement of model. // offset to the right 
+4.  create a custom recipe book
+5. finish order_of_operation

@@ -14,6 +14,6 @@ scoreboard objectives remove temp
 
 tellraw @a {"text":"Custom Loot Crafting(C.L.C) Datapack has been successfully uninstalled!","color":"gold"}
 
-datapack disable "file/CustomLootCrafting.v2"
+datapack disable "file/CustomLootCrafting.dp"
 
 gamerule sendCommandFeedback false
