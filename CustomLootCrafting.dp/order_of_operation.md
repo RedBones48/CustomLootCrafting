@@ -34,4 +34,3 @@
 2.  place storage chest 
 3.  fix hud placement of model. // offset to the right 
 4.  create a custom recipe book
-5.  finish order_of_operation
