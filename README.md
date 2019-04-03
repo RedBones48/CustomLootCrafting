@@ -20,8 +20,7 @@ After C.L.C Resourcepack is downloaded, you must go to the resourcepacks folder 
 
 ##  Credits:
 - Creator RedBones
-- Models: Workbench RedBones  
-- Textures: RedBones
+- Models: Workbench RedBones 
 - Code: Red_Bones / Javier107's
 
 Version.2.2
