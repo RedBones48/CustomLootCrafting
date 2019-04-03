@@ -13,5 +13,12 @@ execute if entity @a[scores={clc_break_clc=1..}] run kill @e[type=item,limit=1,s
 ## Reset scores
 scoreboard players reset @a[scores={clc_break_clc=1..}] clc_break_clc
 
+## Remove Chest
+execute if block ^1 ^ ^ chest run setblock ^1 ^ ^ minecraft:air replace
+execute if block ~ ~ ~ minecraft:chest run setblock ~ ~ ~ minecraft:air replace
+
+## Remove Storage Chest Item 
+kill @e[type=item,nbt={Item:{id:"minecraft:chest"}},distance=..1.5]
+
 ## Kill Entity
 kill @s
