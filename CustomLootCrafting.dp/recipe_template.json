@@ -1,0 +1,48 @@
+{
+    "type": "item",
+    "name": "diamond_axe",
+    "weight": 1,
+    "functions": [
+        {
+            "function": "set_nbt",
+            "tag": "{}"
+        },
+        {
+            "function": "set_name",
+            "name": [
+                {
+                    "text": "Display Name",
+                    "color": "dark_aqua"
+                }
+            ]
+        },
+        {
+            "function": "set_lore",
+            "lore": [
+                {
+                    "text": "Example: Color:Lore line 1",
+                    "color": "dark_blue"
+                },
+                [
+                    {
+                        "selector": "@p"
+                    },
+                    {
+                        "text": " Selector line 2"
+                    }
+                ]
+            ],
+            "entity": "this",
+            "replace": "true"
+        }
+    ],
+    "conditions": [
+        {
+            "condition": "entity_properties",
+            "predicate": {
+                "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:structure_void\",Count:1b,tag:{ChestItems:{Slot1:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot2:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot3:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot10:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot11:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot12:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot19:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot20:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"},Slot21:{item_count:0b,item_nbt:{no_nbt:1b},item_id:\"minecraft:air\"}}}}]}"
+            },
+            "entity": "this"
+        }
+    ]
+}
