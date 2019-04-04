@@ -4,7 +4,7 @@
         "layer0": "item/diamond_axe"
     },
 	"overrides": [
-		{"predicate": {"custom_model_data":2001}, "model": "workbench:battle_axe/battle_axe"}
+		{"predicate": {"custom_model_data":2001}, "model": "workbench:item/weapons/battle_axe"}
 	]
 		
 }
