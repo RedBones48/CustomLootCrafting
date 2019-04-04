@@ -51,5 +51,6 @@ execute unless score Current_Count clc_main matches 0 run function c.l.c:slot_ch
 ## If Loot Fails with Item.Count in Output_Slot
 execute if score #loot_success clc_main matches 0 if score #output_slot clc_slot_count matches 1.. run function c.l.c:slot_checks/remove_item
 execute if score #loot_success clc_main matches 1.. if score #input_success clc_main matches 1.. run function c.l.c:slot_checks/remove_item
+execute if score #loot_success clc_main matches 1.. if score #output_success clc_main matches 1.. if score Current_Count clc_main matches 0 run function c.l.c:slot_checks/remove_item
 execute if score #current_tick clc_main < #previous_tick clc_main if score #input_success clc_main matches 0 run scoreboard players set #loot_success clc_main 0
 execute if score #current_tick clc_main > #previous_tick clc_main if score #input_success clc_main matches 0 run scoreboard players set #loot_success clc_main 0
