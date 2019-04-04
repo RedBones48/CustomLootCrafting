@@ -4,7 +4,7 @@
 #
 #
 
-## Fill the Chest with the gui Items
+## Fill the Chest with the GUI Items
 execute unless data block ~ ~ ~ Items[{Slot:0b}].Count run replaceitem block ~ ~ ~ container.0 minecraft:white_stained_glass_pane{clc_gui:1b,display: {Name: '{"text":" "}'}} 
 execute unless data block ~ ~ ~ Items[{Slot:4b}].Count run replaceitem block ~ ~ ~ container.4 minecraft:white_stained_glass_pane{clc_gui:1b,display: {Name: '{"text":" "}'}} 
 execute unless data block ~ ~ ~ Items[{Slot:5b}].Count run replaceitem block ~ ~ ~ container.5 minecraft:white_stained_glass_pane{CustomModelData: 5001,clc_gui:1b,display: {Name: '{"text":" "}'}} 
