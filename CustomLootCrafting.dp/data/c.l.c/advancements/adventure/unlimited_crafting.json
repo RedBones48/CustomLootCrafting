@@ -1,38 +1,38 @@
 {
-    "parent":"c.l.c:recipes/hard_worker",
-    "display": {
-      "icon": {
-          "item": "minecraft:structure_void"
-      },
-      "title": {
-        "text": "Unlimited Crafting"
-      },
-      "description": {
-        "text": "Craft a C.L.C Workbench"
-      },
-      "frame": "goal",
-      "show_toast": false,
-      "announce_to_chat": true,
-      "hidden": false
+  "parent": "c.l.c:recipes/hard_worker",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_void"
     },
-    "criteria": {
-      "has_workbench_ingredients": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-            "items": [
-                {
-                    "item": "minecraft:structure_void"
-                }
-              ]
-            }
+    "title": {
+      "text": "Unlimited Crafting"
+    },
+    "description": {
+      "text": "Craft a C.L.C Workbench"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_workbench_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:structure_void"
           }
-        },
-    "requirements": [
-      [
-        "has_workbench_ingredients"
-      ]
-      ],
-    "rewards": {
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_workbench_ingredients"
+    ]
+  ],
+  "rewards": {
     "experience": 1
   }
 }

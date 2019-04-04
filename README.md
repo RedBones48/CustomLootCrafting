@@ -2,7 +2,7 @@
 # C.L.C (C.ustom L.oot C.rafting) - Easy to use Crafting System
 C.L.C is a datapack for map creators that allows custom crafting using Loot Tables. Using minecraft's Loot Table functions and condition's in 1.14 makes testing for custom Models and Texures with nbt easier. C.L.C combines Models and Textures using custom_model_data in a resource pack with the Advancements, Loot_tables, and Scoreboards in a datapack to come up with the most resource friendly Custom Crafting datapack.
 
-This basic concept is to allow better performance per tick and allow unlimited custom crafting. In traditional methods of custom crafting the amount of nbt checks was large based on the amount of recipes you had, with large amount of performance spikes. Using loot_tables for nbt checks reduces the amount of nbt checks per-tick from the amount of recipes you had to a single check nbt check per-tick with unlimited recipes. With that in mind the system we created will allow any amount of recipes to be checked once per-tick without the major performance spikes.   
+This basic concept is to allow better performance per tick and allow unlimited custom crafting. In traditional methods of custom crafting the amount of nbt checks was large based on the amount of recipes you had, with large amount of performance spikes. Using loot_tables for nbt checks reduces the amount of nbt checks per-tick from the amount of recipes you had to a single check nbt check per-tick with unlimited recipes. With that in mind the system we created a system that will allow any amount of recipes to be checked once per-tick without the major performance spikes.   
 
 
 ##                                        Setup
